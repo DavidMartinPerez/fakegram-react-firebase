@@ -12,3 +12,29 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+.fileUpload{
+  margin-bottom: 35px;
+}
+.subida{
+  width: 350px;
+  margin: auto;
+}
+.subida__user{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #333;
+  padding: 5px;
+}
+.subida__fotoUsuario{
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.subida__fotoSubida{
+  border: 1px solid #333;
+  width: 348px;
+  height: 348px;
+}
